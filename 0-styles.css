@@ -1,0 +1,30 @@
+body {
+  margin: 0 auto;
+}
+
+a:hover,
+a:active {
+  color: #FF6565;
+}
+
+button:hover,
+button:active {
+  opacity: 0.9;
+}
+
+@media screen and (max-width: 480px) {
+  /* mobile version styles */
+}
+
+header{
+    background-image: url("images/headphones_hero_1.jpg");
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
